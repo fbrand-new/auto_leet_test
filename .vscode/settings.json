@@ -1,0 +1,6 @@
+{
+    "ruff.lint.enable": false,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnPaste": true
+  }
