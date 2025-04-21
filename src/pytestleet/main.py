@@ -12,6 +12,8 @@ def main():
     args = parser.parse_args()
 
     # Once we get the number of the problem from the user we can then fetch the corresponding webpage
+    problem_name = get_problem_name()
+    problem_page = fetch_page(problem_name)
 
     # Then we can extract the test case
 
